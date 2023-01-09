@@ -45,7 +45,6 @@ export const loadMore = {
 				}, false)
 
 				const moveEnd = () => {
-
 					requestFram = requestAnimationFrame(() => {
 						if (scrollEl.scrollTop != oldScrollTop) {
 							oldScrollTop = scrollEl.scrollTop;
