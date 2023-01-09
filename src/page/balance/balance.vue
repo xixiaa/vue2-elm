@@ -9,6 +9,7 @@
                         <img src="../../images/description.png" height="24" width="24">
                         <router-link to="/balance/detail" class="content_title_style">余额说明</router-link>
                     </section>
+
                 </header>
                 <p class="content_num">
                     <span>0.00</span>
@@ -32,7 +33,7 @@
 <script>
     import headTop from 'src/components/header/head'
     import alertTip from 'src/components/common/alertTip'
-    
+
     export default {
       data(){
             return{
@@ -41,24 +42,24 @@
             }
         },
         mounted(){
-          
+
         },
         components: {
             headTop,
             alertTip,
         },
         computed: {
-           
+
         },
         methods: {
-            
+
         }
     }
 </script>
-  
+
 <style lang="scss" scoped>
     @import 'src/style/mixin';
-  
+
     .page{
         padding-top: 1.95rem;
         p, span{
