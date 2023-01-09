@@ -9,6 +9,10 @@
                         <img src="../../images/description.png" height="24" width="24">
                         <router-link to="/balance/detail" class="content_title_style">余额说明</router-link>
                     </section>
+
+
+
+
                 </header>
                 <p class="content_num">
                     <span>0.00</span>
